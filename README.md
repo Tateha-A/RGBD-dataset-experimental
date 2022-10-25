@@ -5,10 +5,11 @@ This repository contains a Blender program to generate random 3D datasets. Inclu
 <img src="example_output/Rotate_depth.gif" align="center" width="400"></p>
 <p align="center"><img src="example_output/VP_image.gif" align="center" width="400">
 <img src="example_output/VP_depth.gif" align="center" width="400"></p>
+<p align="center"><img src="example_output/random1RGB.png" align="center" width="400">
+<img src="example_output/random1.png" align="center" width="400"></p>
 <!-- TOC -->
 
 - [Requirements](#Requirements)
-- [Features](#Features)
 - [How to use](#How-to-use)
 	- [Run with default settings](#Run-with-default-settings)
     - [Customize your dataset](#Customize-your-dataset)
@@ -18,15 +19,6 @@ This repository contains a Blender program to generate random 3D datasets. Inclu
 
 ## Requirements
 The program is executed through Blender's built-in scripting editor. Requires Blender 3.2 or higher.
-
-## Features
-
-
-- A `json` configuration file to customize the program.
-- The program generates a randomized scene. Filled with configurable random edited models (extrusion/shrink/inset/offset) with random texture and randomized lighting.
-- Rotate & orbit camera around the center of the scene to capture 360 deg scan. Or view plane mode to constraint camera to the defined viewplane.
-- A composited node tree is available for customize rendering and output configurations.
-- The program outputs the original PNG image, corresponding PNG depth map and OpenEXR depth map. And saves a copy of the scene.
 
 ## How to use
 
